@@ -16,9 +16,9 @@ Please download Docker from https://www.docker.com/community-edition
 
 Pull and run the Cisco GVE Docker image:
 
-\#docker pull hantzley/gve-box
+\#docker pull ciscogve/gve-box
 
-\#docker run hantzley/gve-box
+\#docker run ciscogve/gve-box
 
 \#docker exec -it gve-box bash
 
