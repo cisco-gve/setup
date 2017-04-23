@@ -16,7 +16,7 @@ RUN apk add --update \
     perl \
     ruby ruby-bundler \
   && pip3 install --upgrade pip \
-  && pip3 install virtualenv flask flask-sijax requests \
+  && pip3 install virtualenv virtualenvwrapper flask flask-sijax requests \
   && rm -rf /var/cache/apk/*
 
 RUN mkdir -p /cisco-gve
