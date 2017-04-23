@@ -11,14 +11,18 @@ Assuming you installed python3 and git properly, you can clone the individual re
 Please download Docker from https://www.docker.com/community-edition
 
 Pull and run the Cisco GVE Docker image:
+
 \#docker pull hantzley/gve-box
 
 \#docker run hantzley/gve-box
+
 \#docker exec -it gve-box bash
 
 You will land on /cisco-gve directory, where you should see a file called setup.sh
 
 Execute the setup.sh script:
+
 \#sh setup.sh
+
 
 The repositories in script https://raw.githubusercontent.com/cisco-gve/setup/master/clone-repos.sh will be downloaded to your the /cisco-gve directory
