@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+MAINTAINER Hantzley Tauckoor <hantzley@gmail.com>
+
 RUN apk add --update \
     bash \
     curl \
