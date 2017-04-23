@@ -20,6 +20,7 @@ RUN apk add --update \
   && rm -rf /var/cache/apk/*
 
 RUN mkdir -p /cisco-gve
+RUN mkdir -p /hantzley
 
 VOLUME /cisco-gve
 WORKDIR /cisco-gve
