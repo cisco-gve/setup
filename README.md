@@ -4,6 +4,9 @@ Follow the instructions below to download all GVE scripts.
 ## Running the scripts natively on your machine
 Assuming you installed python3 and git properly, you can clone the individual repositories manually, or you can copy and execute the clone-repos.sh script which can be found here: https://raw.githubusercontent.com/cisco-gve/setup/master/clone-repos.sh
 
+Note: For Windows users, please use Cygwin as shell. Please see https://www.cygwin.com
+
+Run the clone-repos.sh script:
 \#sh clone-repos.sh
 
 
