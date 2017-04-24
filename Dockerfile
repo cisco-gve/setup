@@ -12,15 +12,12 @@ RUN apk add --update \
     python-dev \
     py-pip \
     build-base \
-    nodejs \
-    perl \
-    ruby ruby-bundler \
   && pip3 install --upgrade pip \
-  && pip3 install virtualenv virtualenvwrapper flask flask-sijax requests \
+  && pip3 install virtualenv virtualenvwrapper \
+     flask flask-sijax requests urllib3 \
   && rm -rf /var/cache/apk/*
 
 RUN mkdir -p /cisco-gve
-RUN mkdir -p /hantzley
 
 VOLUME /cisco-gve
 WORKDIR /cisco-gve

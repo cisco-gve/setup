@@ -1,0 +1,25 @@
+FROM alpine:latest
+
+MAINTAINER Hantzley Tauckoor <hantzley@gmail.com>
+
+RUN apk add --update \
+    bash bash-doc bash-completion \
+    build-base gcc abuild binutils binutils-doc gcc-doc \
+    util-linux pciutils usbutils coreutils binutils findutils grep \
+    curl vim nano git \
+    python3 python-dev py-pip \
+    nodejs perl ruby ruby-bundler \
+    man man-pages \
+  && pip3 install --upgrade pip \
+  && pip3 install virtualenv virtualenvwrapper \
+     flask flask-sijax requests \
+  && rm -rf /var/cache/apk/*
+
+RUN mkdir -p /cisco-gve
+RUN mkdir -p /hantzley
+
+VOLUME /cisco-gve
+WORKDIR /cisco-gve
+ADD setup.sh /cisco-gve/
+
+CMD ["bash"]
