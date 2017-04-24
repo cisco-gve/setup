@@ -12,6 +12,7 @@ RUN apk add --update \
     python-dev \
     py-pip \
     build-base \
+    perl \
   && pip3 install --upgrade pip \
   && pip3 install virtualenv virtualenvwrapper \
      flask flask-sijax requests urllib3 \
