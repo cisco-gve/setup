@@ -26,7 +26,7 @@ You will land on /cisco-gve directory, where you should see a file called setup.
 
 Execute the setup.sh script:
 
-\#sh setup.sh
+\#setup.sh
 
 
-The repositories in script https://raw.githubusercontent.com/cisco-gve/setup/master/clone-repos.sh will be downloaded to your the /cisco-gve directory
+The repositories listed in the script https://raw.githubusercontent.com/cisco-gve/setup/master/clone-repos.sh will be downloaded to your the /cisco-gve directory
