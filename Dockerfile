@@ -22,6 +22,7 @@ RUN mkdir -p /cisco-gve
 
 VOLUME /cisco-gve
 WORKDIR /cisco-gve
-ADD setup.sh /cisco-gve/
+ADD setup.sh /bin
+RUN chmod +x /bin/setup.sh
 
 CMD ["bash"]
