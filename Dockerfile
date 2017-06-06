@@ -5,6 +5,7 @@ MAINTAINER Hantzley Tauckoor <hantzley@gmail.com>
 RUN apk add --update \
     bash \
     curl \
+    wget \
     vim \
     nano \
     git \
