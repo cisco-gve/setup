@@ -30,3 +30,7 @@ Execute the setup.sh script:
 
 
 The repositories listed in the script https://raw.githubusercontent.com/cisco-gve/setup/master/clone-repos.sh will be downloaded to your the /cisco-gve directory
+
+
+## Running the script in Vagrant
+Coming soon...
